@@ -1,3 +1,4 @@
+// 让所有元素（包括伪元素）的padding和margin归零，并应用border-box的盒模型
 *,
 *::after,
 *::before{
@@ -6,11 +7,26 @@
     box-sizing: border-box;
 }
 
+//统一1rem的单位，一个rem等于浏览器的一个标准单位,大部分浏览器默认16px所以62.5%就是10px
 html{
-    //define what 1rem 
     font-size: 62.5%;
 }
 
 body{
     box-sizing: border-box;
 }
+
+
+#container_first{
+    width:1200px;
+    padding:100px;
+    text-align:center;
+}
+
+#container_first{
+    box-sizing:border-box;
+    width:1200px;
+    padding:100px;
+    text-align:center;
+    border:10px solid gray;
+  }

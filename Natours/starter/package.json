@@ -4,7 +4,7 @@
   "description": "startercod for natour project",
   "main": "index.js",
   "scripts": {
-    "compile:sass":"node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "keywords": [
     "nature"
@@ -14,5 +14,13 @@
   "devDependencies": {
     "node-sass": "^4.7.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-china": "^3.1.0",
+    "gulp-watch": "^5.0.0"
+  }
 }
