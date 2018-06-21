@@ -6,6 +6,10 @@ var gulp = require('gulp'),
         watch('./sass/**/*.scss',function(){
             gulp.start('refreshCSS');
         })
+
+        watch('./index.html',function(){
+            browserSync.reload();
+        })
     })
 
     gulp.task('default',['watch','sass'],function(){
